@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: rgb(1, 5, 20);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+/* navegation */
+nav {
+  background-color: rgb(58, 58, 148);
+  height: 38px;
+  font-size: 15px;
+}
+
+a img {
+  margin-bottom: 5px;
+}
+
+ul {
+  margin-right: 5%;
+}
+
+nav li {
+  margin-right: 2px; /* Espacio a la derecha de cada elemento */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+nav li::before {
+  content: "│";
+  position: absolute;
+  left: -5px; /* Ajuste fino para posicionar la barra vertical */
+  color: #c2c1c1; /* Color de la barra vertical */
+  display: flex;
+  align-items: center;
+  transform: translateY(2%); /* Centrar verticalmente */
+}
+
+nav li:first-child::before {
+  content: none; /* No mostrar la barra vertical antes del primer elemento */
+}
+
+/* cuadro de descargas */
+.down {
+  width: 280px;
+  height: 80px;
+  background-color: #049117;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 20%;
+  border-radius: 10px;
+}
+
+.right {
+  margin-left: 120px;
+  margin-right: -80px;
+  /*border: 2px solid white;*/
+}
+
+.left {
+  margin-left: -120px;
+  /*border: 2px solid white;*/
+}
+.word {
+  margin-left: -17px;
+  color: rgb(91, 167, 101);
+}
+.letra {
+  color: rgb(91, 167, 101);
+}
+
+/* lista de columna */
+.custom-list {
+  list-style-type: none; /* Quitar puntos de la lista */
+  padding-left: 0; /* Eliminar sangría predeterminada */
+  color: #049117;
+  font-size: 19px;
+}
+
+.custom-list li {
+  margin-left: 0.5em; /* Ajustar sangría según preferencias */
+}
+
+.list {
+  padding-left: 157px;
+  margin-top: 5px;
+}
+
+/* guides */
+.guides {
+  width: 75%;
+}
+.guides pre {
+  margin-top: 20px;
+}
+.custom-list-two {
+  color: #6fd47c;
+  margin-top: 20px;
+  margin-left: 0.5em;
+}
+/* blog */
+span,
+h5 {
+  color: rgb(6, 160, 6);
+  margin-top: 25px;
+}
+/* footer */
+footer {
+  background-color: rgb(51, 51, 104);
+  color: rgb(145, 219, 238);
+  font-size: 15px;
+}
+span {
+  color: white;
+}

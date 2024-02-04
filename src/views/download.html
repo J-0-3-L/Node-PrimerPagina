@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include('partials/header.html') %>
+</head>
+<body>
+    <%- include('partials/nav.html') %>
+    
+    <div class="container p-5 text-white guides">
+        <h3>Downloads</h3>
+        <p>Latest LTS Version: 20.11.0 (includes npm 10.2.4)</p>
+        <p>Download the Node.js source code or a pre-built installer for your platform, and start developing today.</p>
+
+        <h3>Additional Platforms</h3>
+        <ul class="custom-list-two">
+            <li>Signed SHASUMS for release files (How to verify)</li>
+            <li>All download options</li>
+            <li>Installing Node.js via package manager</li>
+            <li>Previous Releases</li>
+            <li>Nightly builds</li>
+            <li>Unofficial builds</li>
+            <li>Building Node.js from source on supported platforms</li>
+            <li>Installing Node.js via binary archive</li>
+            <li>Install on Windows Subsystem for Linux (WSL)</li>
+        </ul>
+    </div>
+
+    <%- include('partials/footer.html') %>
+</body>
+</html>

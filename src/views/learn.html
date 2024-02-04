@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <%- include('partials/header.html') %>
+  </head>
+  <body>
+    <%- include('partials/nav.html') %>
+    
+    <div class="container p-5 text-white text-center" style="margin-bottom: 113px;">
+      <p>Node.js® is an open-source, cross-platform JavaScript runtime environment.</p>
+      <h3>Download Node.js®</h3>
+      
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-6 right">
+              <div class="down">
+                <h3>20.11.0 LTS</h3>
+                <p>Recommended For Most Users</p>
+              </div>
+              <p class="word">Other Downloads <span> | </span> Changelog <span> | </span> API Docs</p>
+            </div>
+            <div class="col-sm-6 left">
+              <div class="down">
+                <h3>21.5.0 Current</h3>
+                <p>Latest Features</p>
+              </div>
+              <p class="word">Other Downloads <span> | </span> Changelog <span> | </span> API Docs</p>
+            </div>
+        </div>
+      </div>
+      <p>For information about supported releases, see the <span class="letra"> release schedule </span>.</p>
+
+    </div>
+
+    <%- include('partials/footer.html') %>
+  </body>
+</html>

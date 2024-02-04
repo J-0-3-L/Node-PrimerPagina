@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include('partials/header.html') %>
+</head>
+<body>
+    <%- include('partials/nav.html') %>
+    
+    <div class="container p-5 text-white guides">
+        <h2>Node.js Guides</h2>
+        <pre><code>Note: The Node.js Guides are being archived and incrementally being replaced by the "Learn" 
+section of the Node.js Website. These Guides will remain available at this location until the
+transition is complete.</code></pre>
+
+        <h3>General</h3>
+        <ul class="custom-list-two">
+            <li>Debugging - Getting Started</li>
+            <li>Easy profiling for Node.js Applications</li>
+            <li>Diagnostics - Flame Graphs</li>
+            <li>Diagnostics - User Journey</li>
+            <li>Security Best Practices</li>
+        </ul>
+        <h3>Node.js core concepts</h3>
+        <ul class="custom-list-two">
+            <li>The Node.js Event Loop, Timers, and process.nextTick()</li>
+            <li>Don't Block the Event Loop (or the Worker Pool)</li>
+        </ul>
+        <h3>Module-related guides</h3>
+        <ul class="custom-list-two">
+            <li>Anatomy of an HTTP Transaction</li>
+            <li>Working with Different Filesystems</li>
+            <li>Backpressuring in Streams</li>
+            <li>How to publish N-API package</li>
+            <li>ABI Stability</li>
+        </ul>
+    </div>
+
+    <%- include('partials/footer.html') %>
+</body>
+</html>
